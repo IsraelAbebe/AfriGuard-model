@@ -15,6 +15,32 @@
       "messages": "conversations",
       "tools": "tools"
     }
+  },"afriguard": {
+    "hf_hub_url": "israel/AfriGuard-inst",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+  ,"afriguard_safe_unsafe": {
+    "hf_hub_url": "israel/AfriGuard-inst",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+  ,"afriguard_category": {
+    "hf_hub_url": "israel/AfriGuard-inst",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   },
   "glaive_toolcall_zh_demo": {
     "file_name": "glaive_toolcall_zh_demo.json",
