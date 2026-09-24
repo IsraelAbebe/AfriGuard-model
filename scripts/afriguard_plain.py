@@ -43,7 +43,7 @@ def convert(example: dict) -> dict:
     if TAG_PATTERN.search(response):
         raise ValueError(f"Leftover tags in response of example {example['id']}.")
 
-    record = {"instruction": example["input"], "input": "", "output": response}
+    record = {"input": example["input"], "output": response}
     record.update({column: example[column] for column in METADATA_COLUMNS})
     return record
 
