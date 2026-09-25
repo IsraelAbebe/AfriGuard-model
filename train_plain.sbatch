@@ -1,5 +1,5 @@
 #!/bin/bash -l
-# Usage: sbatch train_plain.sbatch examples/train_full/afriguard_plain.yaml
+# Usage: sbatch train_plain.sbatch examples/train_full/afriguard_plain_afriqueqwen3.5-4b-50langs-instruct_full_sft.yaml
 # One GPU per run to match the original AfriGuard-inst runs (same effective batch size).
 #SBATCH --job-name=afriguard-plain
 #SBATCH --account=kempner_kdbrantley_lab
