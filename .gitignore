@@ -181,3 +181,8 @@ wandb/
 swanlog/
 generated_predictions.jsonl
 predictions_score.json
+
+# AfriGuard-plain
+.hf_token
+logs/
+data/afriguard_plain_*.json

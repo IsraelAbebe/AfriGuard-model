@@ -42,6 +42,14 @@
       "response": "output"
     }
   },
+  "afriguard_plain": {
+    "file_name": "afriguard_plain_train.json",
+    "formatting": "alpaca",
+    "columns": {
+      "query": "input",
+      "response": "output"
+    }
+  },
   "glaive_toolcall_zh_demo": {
     "file_name": "glaive_toolcall_zh_demo.json",
     "formatting": "sharegpt",
